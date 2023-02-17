@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Form</title>
+   </head>
+   <body>
+      <nav>
+         <img src="./html/quadyster.svg" alt="quadyster" height="25" width="160">
+         <a href="#">Home</a>
+         <a href="#">Portals</a>
+         <a href="#">Parteners</a>
+         <a href="#">Fulfillments</a>
+         <a href="#">Settings</a>
+         <a href="#">Opportunities</a>
+         <a href="#">New opportunity</a>
+         <select name="search">
+         </select>
+         <input type="text"  placeholder="Search">
+         <button> search</button>
+      </nav>
+      <form>
+         <table>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Contract Id:</label>
+               </td>
+               <td colspan="5">
+                 <input type="text" value="2" placeholder="Contract Id" disabled>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Contract Number: </label>
+               </td>
+               <td colspan="2">
+                 <input type="text" value="SB134117AE0050"  placeholder="Contract Number">
+               </td>
+               <td>
+                  <label>NAICS Code:</label>
+               </td>
+               <td colspan="2">
+                 <input type="text"  value="541519" placeholder="NAICS Code">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Name:</label>
+               </td>
+               <td colspan="5">
+                 <input type="text"  placeholder="Name" value="Volume Graphic Software">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Description:</label>
+               </td>
+               <td colspan="5">
+                 <textarea name="description"  placeholder="Description">PRODUCT ID PX124530N+VGSTUDIO MAX 3.0 CAST@MOLD</textarea>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Customer Code:</label>
+               </td>
+               <td colspan="4">
+                  <select name="customer_code">
+                     <option value="DOC01-000SB-Acquisition Management Division">DOC01-000SB-Acquisition Management Division</option>
+                     <option value="DOC02-000SB1-Rajiv Gandhi Institute of Technology">DOC02-000SB1-Rajiv Gandhi Institute</option>
+                     <option value="DOC03-000SB2-Guru Ramdas Khalsa Institute of Science and Technology">DOC03-000SB2-GRKIST College</option>
+                  </select>
+               </td>
+               <td>
+                  <input type="submit" value="View Customer">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Contract Date: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date" value="2017-06-29">
+               </td>
+               <td>
+                 <label>Solicitation Number:</label>
+               </td>
+               <td colspan="2">
+                 <input type="text" value="998" placeholder="Solicitation Number">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Perf Period From: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date" value="2017-07-25">
+               </td>
+               <td>
+                  <label>Perf Period to:</label>
+               </td>
+               <td colspan="2">
+                 <input type="date" value="2017-07-24">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Performance Year:</label>
+               </td>
+               <td colspan="2">
+                  <select name="perform_year">
+                     <option value="one year">One Year</option>
+                     <option value="one year">Two Year</option>
+                     <option value="one year">Three Year</option>
+                  </select>
+               </td>
+               <td>
+                  <label>Delivery Mode:</label>
+               </td>
+               <td colspan="2">
+                  <select name="delivery_mode">
+                     <option value="email">Email</option>
+                     <option value="usps">USPS</option>
+                     <option value="ups">UPS</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Delivery Status: </label>
+               </td>
+               <td colspan="2">
+                  <select name="delivery_status">
+                     <option value="delivered">Delivered</option>
+                     <option value="not delivered">Not Delivered </option>
+                     <option value="on the way">On the way</option>
+                  </select>
+               </td>
+               <td>
+                  <label>Delivery Date:</label>
+               </td>
+               <td colspan="2">
+                 <input type="date" value="2017-07-27">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Payment Mode:</label>
+               </td>
+               <td colspan="2">
+                  <select name="payment_mode">
+                     <option value="ach">ACH</option>
+                     <option value="cash">CASH</option>
+                     <option value="card">CARD</option>
+                  </select>
+               </td>
+               <td>
+                  <label>Payment Terms:</label>
+               </td>
+               <td colspan="2">
+                  <select name="payment_terms">
+                     <option value="net 30">Net 30</option>
+                     <option value="net 45">Net 45</option>
+                     <option value="net 60">Net 60</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Quadyster Amount: </label>
+               </td>
+               <td colspan="2">
+                 <input type="text" value="44000.00" placeholder="Quadyster Amount">
+               </td>
+               <td>
+                  <label>Payment Due Date: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date"  value="2017-07-08">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Fee Amount: </label>
+               </td>
+               <td colspan="2">
+                 <input type="text"  value="0.00" placeholder="Fee Amount">
+               </td>
+               <td>
+                  <label>Fee Terms:</label>
+               </td>
+               <td colspan="2">
+                  <select name="fee_terms">
+                     <option value="1 month">1 Month</option>
+                     <option value="2 month">2 Month</option>
+                     <option value="3 month">3 Month</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Contract Amount: </label>
+               </td>
+               <td colspan="2">
+                 <input type="text" placeholder="44000.00" disabled>
+               </td>
+               <td>
+                  <label>Fee Due Date: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date" value="2017-08-07">
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label >Paid Date: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date"  value="2017-08-07">
+               </td>
+               <td>
+                  <label > Fee Paid Date: </label>
+               </td>
+               <td colspan="2">
+                 <input type="date"  value="2017-08-07">
+               </td>
+            <tr>
+               <td>
+                  <label>Payment Status:</label>
+               </td>
+               <td colspan="2">
+                  <select name="payment_status" >
+                     <option value="received">Received</option>
+                     <option value="not received"> Not Received</option>
+                     <option value="waiting">Waiting</option>
+                  </select>
+               </td>
+               <td>
+                  <label>Currency:</label>
+               </td>
+               <td colspan="2">
+                  <select name="currency" >
+                     <option value="usd">USD</option>
+                     <option value="india"> IND</option>
+                     <option value="uk">UK</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>Customer Category:</label>
+               </td>
+               <td colspan="2">
+                  <select name="customer_category">
+                     <option value="federal">Federal</option>
+                     <option value="commercial">Commercial</option>
+                     <option value="public">Public</option>
+                  </select>
+               </td>
+               <td>
+                  <label>Cotract Set Aside:</label>
+               </td>
+               <td colspan="2">
+                  <select name="cotract_set_aside">
+                     <option value="none">None</option>
+                     <option value="fixed_price">Fixed-price</option>
+                     <option value="cost_plus">Cost-plus </option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="6">
+                  <input type="button" value="Save">
+                  <input type="button" value="Delete">
+                  <input type="button" value="Payment">
+                  <input type="button" value="Notes">
+                  <input type="button" value="Switch to View ">
+                  <input type="button" value="Goto:Contract list ">
+               </td>
+            </tr>
+         </table>
+      </form>
+   </body>
+</html>
